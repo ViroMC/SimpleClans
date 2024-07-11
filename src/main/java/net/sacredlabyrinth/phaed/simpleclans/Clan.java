@@ -294,7 +294,7 @@ public class Clan implements Serializable, Comparable<Clan> {
      */
     @Placeholder("tag")
     public String getTag() {
-        return tag;
+        return tag + " ";
     }
 
     /**

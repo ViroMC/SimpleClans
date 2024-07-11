@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.sacredlabyrinth.phaed.simpleclans</groupId>
     <artifactId>SimpleClans</artifactId>
-    <version>2.19.3-SNAPSHOT</version>
+    <version>1.0</version>
     <name>SimpleClans</name>
     <url>https://www.spigotmc.org/resources/simpleclans.71242/</url>
 
     <build>
-        <finalName>${project.name}</finalName>
+        <finalName>${project.name}-${project.version}-ViroMC</finalName>
 
         <!-- Resources -->
         <resources>
@@ -34,9 +34,6 @@
                     <release>16</release>
                     <showDeprecation>true</showDeprecation>
                     <showWarnings>true</showWarnings>
-                    <compilerArgs>
-                        <arg>-parameters</arg>
-                    </compilerArgs>
                 </configuration>
             </plugin>
 
@@ -263,12 +260,12 @@
         </dependency>
 
         <!--    Test frameworks    -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.3</version>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.junit.jupiter</groupId>-->
+<!--            <artifactId>junit-jupiter-api</artifactId>-->
+<!--            <version>5.9.3</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <!-- Repositories -->
